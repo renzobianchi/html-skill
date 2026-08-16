@@ -35,4 +35,4 @@ Inspired by the artifact-driven design workflows of [Kyle Zantos](https://x.com/
 
 ---
 
-Agent skills by [Renzo Bianchi](https://x.com/renzobianchi_).
+Agent skill by [Renzo Bianchi](https://x.com/renzobianchi_).
