@@ -1,0 +1,11 @@
+{
+  "name": "renzobianchi-skills",
+  "owner": { "name": "Renzo Bianchi", "url": "https://github.com/renzobianchi" },
+  "plugins": [
+    {
+      "name": "html",
+      "source": "./",
+      "description": "Standalone interactive HTML artifacts as the medium for agent↔designer conversation: review docs, variant boards, motion comparisons, visual explorers, and copy ecosystems."
+    }
+  ]
+}
