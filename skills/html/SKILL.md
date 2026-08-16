@@ -55,6 +55,9 @@ Every system string of a kind (toasts, dialogs, errors, empty states) in one doc
 ## Craft floor for the artifact itself
 
 - The chrome (headers, buttons, counts) is quiet and neutral; the subject carries the visual weight.
+- **Comparison grids compare, so they align.** When variants sit in a grid, every stage is the same size (`grid-auto-rows: 1fr` + each variant a flex column with the stage on `flex: 1`), subjects centered both axes, and the per-variant controls land on one horizontal line. Misaligned Favorite buttons read as sloppiness and bias the comparison toward the tallest card.
+- Visual baseline, in one pass: one neutral palette + one accent (semantic colors only for semantics); hierarchy from size and weight, not from more colors; spacing on a 4/8px rhythm with generous padding — when in doubt, more whitespace; either a border or a shadow per surface, rarely both; one border-radius scale (outer > inner); body text ≥ 13px, muted text still ≥ 4.5:1 contrast.
+- Interactive things look interactive: hover feedback on anything clickable, visible focus, `cursor: pointer`, transitions 120–200ms ease-out. Nothing else moves unless motion is the subject.
 - Interactions need no instructions — if a control isn't self-evident, label it.
 - State survives a scroll but need not survive a reload; this is a disposable document. Say so in the footer if the user might assume otherwise.
 - Copy button must actually work from `file://`: use `navigator.clipboard` with a `document.execCommand('copy')` fallback, and confirm visually ("Copied ✓").
