@@ -32,6 +32,7 @@ For "show me this N ways" — components, layouts, effects, type treatments.
 - Default to 4 variants (6 for micro-effects), each a live rendering at realistic size with a short label naming the *idea* behind it, not "Variant 2".
 - Number them so the user can dictate over it: "me gusta la 2 pero…".
 - If the variants animate, give each its own replay control.
+- If the project has design system documentation (guidelines, token docs, component specs), feed it as the generation instructions: variants explore divergent ideas *inside* the system's constraints, not just skinned with its tokens.
 
 ### 3. Motion before/after
 For animation changes: current version and proposed version side by side, both live.
